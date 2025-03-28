@@ -7,11 +7,11 @@
 
 ## ðŸ§° Tecnologias / Technologies
 
-- Java 17
-- JasperReports 7.0.2
-- Node.js (Express API)
-- Docker / Docker Compose
-- Suporte a JSON e PostgreSQL como fontes de dados
+- Java 17  
+- JasperReports 7.0.2  
+- Node.js (Express API)  
+- Docker / Docker Compose  
+- Suporte a JSON e PostgreSQL como fontes de dados  
 
 ---
 
@@ -19,9 +19,9 @@
 
 ### ðŸ”§ PrÃ©-requisitos / Prerequisites
 
-- Docker instalado / Docker installed
-- RelatÃ³rios `.jasper` compilados
-- Bibliotecas `.jar` do JasperReports na pasta `/lib`
+- Docker instalado / Docker installed  
+- RelatÃ³rios `.jasper` compilados  
+- Bibliotecas `.jar` do JasperReports na pasta `/lib`  
 
 ---
 
@@ -88,9 +88,9 @@ curl -X POST http://localhost:8080/generate/json \
 
 ## âœ… ObservaÃ§Ãµes
 
-- O JasperReports nÃ£o vem com linha de comando nativa â€” esta API resolve isso!
-- Inclua suas bibliotecas JasperReports (7.0.2+) na pasta `lib/`
-- Use o Jaspersoft Studio para compilar seus `.jrxml` â†’ `.jasper`
+- O JasperReports nÃ£o vem com linha de comando nativa â€” esta API resolve isso!  
+- Inclua suas bibliotecas JasperReports (7.0.2+) na pasta `lib/`  
+- Use o Jaspersoft Studio para compilar seus `.jrxml` â†’ `.jasper`  
 
 ---
 
