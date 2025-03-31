@@ -1,0 +1,6 @@
+# general
+*.bak
+*.old
+*.~*
+# jasper library
+lib/*.*
